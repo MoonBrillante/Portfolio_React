@@ -25,6 +25,7 @@ Metodología de Gestión:
   ```
   npm create vite@latest
   npm install react-icons
+  npm install axios
   npm install cloudinary-react
   npm install @formspree/react
 ```
