@@ -3,7 +3,7 @@
 ## Requerimientos Técnicos
 
 Metodología de Gestión:
- - El proyecto debe ser gestionado utilizando el marco de trabajo SCRUM.
+ - El proyecto ser gestionado utilizando el marco de trabajo SCRUM.
   
 Responsividad: La página debe ser completamente responsiva, asegurando una óptima visualización en diferentes dispositivos y tamaños de pantalla.
 
