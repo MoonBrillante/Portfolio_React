@@ -18,7 +18,7 @@ Responsividad: La página debe ser completamente responsiva, asegurando una ópt
  - Imagen
 
 ## Capturas de Pantalla
-
+![Screenshot](home.jpeg)
 # Instalación de Librerías
   ## Spring Boot
      Cloudinary
