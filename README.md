@@ -1,12 +1,10 @@
 # Portafolio
- - Este proyecto es un portafolio en línea que te permite mostrar tu trabajo y permite que otras personas conozcan más acerca de ti.
+ - Este proyecto es un portafolio en línea que te permitirá conocer mi trabajo como desarolladora web Full Stack.
 ## Requerimientos Técnicos
 
 Metodología de Gestión:
- - El proyecto ser gestionado utilizando el marco de trabajo SCRUM.
+ - Usaré la metodología de trabajo SCRUM.
   
-Responsividad: La página debe ser completamente responsiva, asegurando una óptima visualización en diferentes dispositivos y tamaños de pantalla.
-
 ## Tecnologías Utilizadas:
  - Frontend: Desarrollado en React,
  - Backend: Desarrollado en Spring Boot
@@ -28,6 +26,7 @@ Responsividad: La página debe ser completamente responsiva, asegurando una ópt
   npm create vite@latest
   npm install react-icons
   npm install cloudinary-react
+  npm install @formspree/react
 ```
 # Además, se utilizan las siguientes herramientas en este proyecto:
 
