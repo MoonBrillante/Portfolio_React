@@ -5,7 +5,6 @@ import {FaLinkedinIn} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FiGithub} from 'react-icons/fi'
 
-
 const Home = () => {
     return (
         <section class="home" id="home">

@@ -30,7 +30,7 @@ const Project = () => {
     };
 
     const toggleCreateForm = (index) => {
-        // 使用索引来控制每个项目的状态
+        // Use indexes to control the status of each item
         const newCreateFormVisible = [...createFormVisible];
         newCreateFormVisible[index] = !newCreateFormVisible[index];
         setCreateFormVisible(newCreateFormVisible);
@@ -58,7 +58,7 @@ const Project = () => {
         console.log("Delete button clicked for project ID:", projectId);
         try {
             await axios.delete(`${url}/${projectId}`);
-            // 更新项目列表，排除被删除的项目
+            // Update the project list to exclude deleted projects
             setProjects((prevProjects) =>
                 prevProjects.filter((project) => project.id !== projectId)
             );
@@ -103,7 +103,6 @@ const Project = () => {
                                     closeEditForm={closeEditForm}
                                 />
                             )}
-
 
                             <AiTwotoneEdit size={30} onClick={() => handleEdit(index)} />
                             <MdOutlineDeleteForever size={30} onClick={() => handleDelete(project.id)} />

@@ -2,12 +2,9 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
 
-
 const Navbar = () => {
-
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
-
     const closeMenu = () => setClick(false)
 
     return (
@@ -44,7 +41,7 @@ const Navbar = () => {
                 <a href="#contact" onClick={closeMenu}>
                   Contacto
                 </a>
-                <a href="#" download onClick={closeMenu}>
+                <a href="../assets/CV.pdf" download onClick={closeMenu}>
                   Currículum
                 </a>
               </nav>

@@ -48,7 +48,7 @@
     /*transform: translateY(100%);*/
     transition: .5s ease;
 }
-/*
+
 .project-layer {
     position: absolute;
     top: 0;
@@ -64,7 +64,7 @@
     padding: 0 4rem;
     transform: translateX(100%);
     transition: .5s ease;
-}*/
+}
 .project-box img{
     width:100%;
     height:85%;
@@ -119,7 +119,6 @@
     padding: 3px 10px;
 }
 
-
 .project-layer a  {
     font-size: 2rem;
     color: var(--second-bg-color);
@@ -128,8 +127,6 @@
 .project-crud{
     margin-top: auto;
 }
-
-
 
 /* breakpoints*/
 @media (max-width: 1200px){
@@ -173,7 +170,6 @@
     .project-crud{
         margin-top: auto;
     }
- 
 }
 
 @media (max-width:671px){
@@ -204,7 +200,7 @@
 @media (max-width:365px){
     .project-layer{
         width:100%;
-     
+    
     }
     .project-box img{
         height:100%;

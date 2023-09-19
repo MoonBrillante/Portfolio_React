@@ -5,12 +5,11 @@ import {DiScrum} from 'react-icons/di'
 import { SiFuturelearn} from 'react-icons/si'
 import {HiOutlineCode } from 'react-icons/hi'
 import {LiaLaptopCodeSolid} from 'react-icons/lia'
-import {AiFillHtml5} from 'react-icons/ai'
 
 const Hero = () => {
     return (
         <section className="about" id="about">
-           <div class="about-img">
+          <div class="about-img">
           <img src={about} alt=""/>
         </div>
           
