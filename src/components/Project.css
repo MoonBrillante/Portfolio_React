@@ -1,0 +1,215 @@
+/* projects */
+.project {
+    background: var(--second-bg-color);
+}
+
+.project h2 {
+    margin-bottom: 4rem;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom:5rem;
+}
+
+.project-container .project-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.project img {
+    width: 100%; 
+    transition: .5s ease;
+}
+
+.project-box:hover img {
+    transform: scale(1.1);
+}
+
+.project-box  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .5), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    /*transform: translateY(100%);*/
+    transition: .5s ease;
+}
+/*
+.project-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(rgba(0, 0, 0, .5), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateX(100%);
+    transition: .5s ease;
+}*/
+.project-box img{
+    width:100%;
+    height:85%;
+}
+
+.project-box:hover .project-layer {
+    transform: translateY(0);
+}
+
+.project-layer h4 {
+    font-size: 3rem;
+}
+
+.project-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+
+.project-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: 5rem;
+    background: var(--main-color);
+    border-radius: 5rem;
+    margin-right:1rem;
+} 
+.project-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 0%;
+    color: #323946;
+}
+
+.project-layer a {
+    color: #323946;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0 2px;
+}
+/*
+.project-demo {
+    border-radius: 30%;
+    background: var(--second-bg-color);
+    color: #FFF;
+    padding: 3px 10px;
+}
+
+
+.project-layer a  {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}*/
+.project-demo a{ margin:5px;}
+.project-crud{
+    margin-top: auto;
+}
+
+
+
+/* breakpoints*/
+@media (max-width: 1200px){
+    .project-layer{
+        width:100%;
+        height:88%;
+    }
+    .project-crud {
+        margin: 5rem;
+        margin-top:auto;
+    }
+    .project-box img{
+        width:100%;
+        height:85%;
+    }
+}
+
+@media (max-width:991px){
+    .project-layer{
+        width:100%;
+        height: 80%;
+    }
+    .project-box img{
+        width:100%;
+        height:80%;
+    }
+    .project-crud{
+        margin-top: auto;
+    }
+}
+
+@media (max-width:768px){
+    .project-box img{
+        width:100%;
+        height:90%;
+    }
+    .project-layer{
+        width:100%;
+        height: 85%;
+    }
+    .project-crud{
+        margin-top: auto;
+    }
+ 
+}
+
+@media (max-width:671px){
+    .project-layer{
+        width:100%;
+        height: 85%;
+    }
+    .project-crud{
+        margin-top: auto;
+    }
+    .project-box img{
+        width:100%;
+        height:80%;
+    }
+}
+/*
+@media (max-width:450px){
+    .project-layer{
+        width:100%;
+        height: 70%;
+    }
+    .project-box img{
+        width:100%;
+        height:70%;
+    }
+
+
+@media (max-width:365px){
+    .project-layer{
+        width:100%;
+     
+    }
+    .project-box img{
+        height:100%;
+    }
+}*/
+
+
+

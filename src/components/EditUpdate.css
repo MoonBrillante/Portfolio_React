@@ -1,0 +1,61 @@
+.popup-container {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 83%;
+  height: 80%;
+  background-color: rgba(31, 36, 45);
+  box-shadow: 5px 5px 10px rgba(31, 36, 45, 0.5);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 9999;
+  }
+  
+  .popup-content {
+
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 80%; /* Adjust the width as needed */
+    box-sizing: border-box;
+  }
+  
+  .popup-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+
+  .popup-content input{
+    width:100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    background:  var(--second-bg-color);
+    border-radius: .8rem;
+    margin:.7rem;
+    margin-bottom: 10px;
+    color:#FFFFFF;
+  }
+  .popup-content textarea{
+    background:  var(--second-bg-color);
+    width:100%;
+    color: #FFFFFF;
+    padding:1.5rem;
+    resize: none;
+    border-radius: .8rem;
+    font-size: 1.6rem;
+    margin-bottom:0.5rem;
+  }
+
+  button.update-project {
+    margin: 1.5rem 0.5rem 0.5rem 0;
+  }
+  .update-label{
+    font-size:2rem;
+  }

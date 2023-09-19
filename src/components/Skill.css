@@ -1,0 +1,96 @@
+/* skills and tool */
+.skills h2 {
+    margin-bottom: 5rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skills-container .skills-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.36rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.skills-container .skills-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.skills-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.skills-box h3 {
+    font-size: 2.6rem;
+}
+
+.skills-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/*habilidades*/
+.work-wrapper {
+    margin: 0 auto;
+   /* padding: 0 30px;
+    max-width: 950px; */
+  
+  }
+  .work-wrapper h2{font-size:4.6rem;}
+  
+  .job-wrapper {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .job-wrapper h2{
+    font-size:4.6rem
+  }
+  .job-wrapper h3{
+    font-size: 2.8rem;
+    margin-bottom:1.6rem;
+  }
+  .job-wrapper p{
+    font-size:1.5rem;
+  }
+  .job-wrapper h4{
+    font-size:2rem;
+    margin:0.8rem 0 0.8rem 0;
+  }
+  @media (min-width: 935px) {
+    .job-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        column-gap: 30px;
+    }
+  }
+  
+  h3~p  {
+    margin: 0;
+  }
+  
+  @media (min-width: 935px) {
+    .job-description p:first-of-type {
+        margin-top: 0;
+    }
+  }
+  
+  ol li {
+    margin: 8px 0;
+    padding-left: 15px;
+  }
+  
+  ol li a {
+    color: blue;
+  }
+  
