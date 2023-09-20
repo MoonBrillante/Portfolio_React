@@ -7,6 +7,9 @@ import {FiGithub} from 'react-icons/fi'
 
 const Home = () => {
     return (
+        
+   
+    
         <section class="home" id="home">
 <div className="home-content">
             <h3>Hola,</h3>
