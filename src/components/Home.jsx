@@ -16,6 +16,8 @@ const Home = () => {
             <h1>Soy Yue</h1>
             <h3><span className="multiple-text"> Desarrolladora Junior Full Stack</span></h3>
         <p>Soy una desarrolladora junior Full Stack por Factoría F5, con una pasión incansable por escribir código limpio, bien estructurado y elegante para dar vida a las ideas.</p>
+            <h3><span className="multiple-text"> Desarrolladora Junior Full Stack</span></h3>
+        <p>Soy una dessarrolladora junior Full Stack, con una pasión incansable por escribir código limpio, bien estructurado y elegante para dar vida a las ideas.</p>
         <div className='social-media'>
             <a href="https://www.linkedin.com/in/yueming-zhang-7a6a63b8/" target="_blank"><i className='linkedin' ><FaLinkedinIn/></i></a> 
             <a href="https://github.com/MoonBrillante" target="_blank"><i className='github' ><FiGithub/></i></a>     
