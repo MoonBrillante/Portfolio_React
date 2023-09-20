@@ -41,9 +41,7 @@ const Navbar = () => {
                 <a href="#contact" onClick={closeMenu}>
                   Contacto
                 </a>
-                <a href="../assets/CV.pdf" download onClick={closeMenu}>
-                  Currículum
-                </a>
+              
               </nav>
             </header>
           );
