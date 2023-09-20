@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaList } from 'react-icons/fa'
+import {AiFillCaretUp} from 'react-icons/ai'
 import './Skill.css'
 
 const Skill = () => {
@@ -13,54 +14,27 @@ const Skill = () => {
                         <h4><span>Mayo 2023 - Oct 2023</span></h4>
                     </div>
                     <div className="job-description ">
-                        <h3>Portafolio</h3>
+                        <h3>Desarrollo de Webs :</h3>
                         <span><FaList size={20} /></span>
                         <p>
-                            Este proyecto es un portafolio en línea, que te permitirá
-                            conocer mi trabajo como desarrolladora web Full Stack.Además 
-                            de esto, es una de las mejores formas para expresar tu personalidad, experiencia y capacidades.</p>
-                        <h4><span>Requerimientos Técnicos</span></h4>
-                        <p>Metodología de Gestión:</p>
-                        <p>Usaré la metodología de trabajo SCRUM.</p>
-                        <h4><span>Tecnologías Utilizadas:</span></h4>
-                        <p>Frontend: Desarrollado en React</p>
-                        <p>Backend: Desarrollado en Spring Boot</p>
-                        <h4><span>Operaciones CRUD:</span></h4>
-                        <p>El proyecto debe implementar un CRUD (Create, Read, Update, Delete) que permita subir proyectos a la base de datos.
+                        Destacaría las siguientes habilidades que he reforzado y desarrollado en el Bootcamp de Factoría F5:  
                         </p>
+                        <p><span><AiFillCaretUp size={20}/></span> Mi capacidad para trabajar en equipo utilizando metodologías Agile y Scrum.</p>
+                        <p><span><AiFillCaretUp size={20}/></span> El uso de tecnologías HTML, CSS, JavaCript, React</p>
+                        <p><span><AiFillCaretUp size={20}/></span> Capacidad para programar con Python y Django</p>
+                        <p><span><AiFillCaretUp size={20}/></span> Herramientas como Figma, Trello, VS Code, Git y GitHub</p>
+                        <br />
+                        <h3 >Poseo las certificaciones :</h3>
+                        <span><FaList size={20} /></span>
+                        <p><span><AiFillCaretUp size={20}/></span> Tableau Desktop Specialist (Tableau) (2023)</p>
+                        <p><span><AiFillCaretUp size={20}/></span> Google Data Analytics Professioal Certificate (2022)</p>
+                        <p><span><AiFillCaretUp size={20}/></span> Microsoft Master Data Science (edX-UC San Diego) (2018-2019)</p>
+                    
                     </div>
                 </div>
 
-                <div className="job-wrapper ">
-                    <div>
-                        <h3>Web Full Stack | <span>Factoría F5</span></h3>
-                        <h4><span>Mayo 2023 - Oct 2023</span></h4>
-                    </div>
-                    <div className="job-description ">
-                        <h3>Lo Tienes Crudos</h3>
-                        <span><FaList size={20} /></span>
-                        <p>Desarrollar una aplicación<span>"CRUD"</span>  Web en Java que permita pedir
-                        cita a los desarrolladores y equipos para solucionar problemas técnicos con la 
-                        ayuda de desarrolladores de una empresa que se dedica a apagar incendios de código.</p>
-                        <p><strong><span>KEY TECHNOLOGIES:</span></strong> React, Spring Boot</p>
-                    </div>
-                </div>
 
-                <div className="job-wrapper ">
-                    <div>
-                        <h3>Front End | <span>Factoría F5</span></h3>
-                        <h4><span>Mayo 2023 - Oct 2023</span></h4>
-                    </div>
-                    <div className="job-description ">
-                        <h3>Consumo Api en React</h3>
-                        <span><FaList size={20} /></span>
-                        <p>Use React develop freont end, show PokéAPI Cards are dynamically generated using 
-                            data fetched from the PoKéAPI Responsive página web, el ratón mueve las tarjetas 
-                            mostrar efecto de animación, haga clic en la tarjeta para que pop-up el mensaje 
-                            y nav tiene función de búsqueda.</p>
-                            <p><strong><span>KEY TECHNOLOGIES:</span></strong> React, PokéAPI</p>
-                    </div>
-                </div>
+              
 
                 <div className="job-wrapper ">
                     <div>

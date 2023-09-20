@@ -15,16 +15,16 @@ const Hero = () => {
           
         <div className="about-content">
           <h2 className="heading">Sobre <span>Mi</span></h2>
-          <h3>Junior Full Stack Desarrollador</h3>
-            <p>Soy un Junior Desarrollador Full Stack Junior formado en Factoría F5.</p>
+          <h3>Desarrollador Junior Full Stack</h3>
+            <p>Soy una desarrolladora junior Full Stack formada en Factoría F5.</p>
             <span class="aboutme"><LiaLaptopCodeSolid size={20}/>Front End</span>
-            <p>Tengo un sólido conocimiento de tecnologías de frontend como HTML, CSS y JavaScript, y tengo experiencia con React para construir diseños dinámicos, receptivos y animados</p> 
+            <p>Tengo un sólido conocimiento de tecnologías de frontend como HTML, CSS y JavaScript. Tengo experiencia con React para construir diseños dinámicos, interactivos y animados</p> 
             <span class="aboutme"><HiOutlineCode size={20}/>Back end</span>
-            <p>También tengo experiencia con Java Spring Boot para el desarrollo de APIs. Además, tengo experiencia utilizando Python y Django para crear un blog.</p>
+            <p>Tengo experiencia con Java Spring Boot para el desarrollo de APIs. Además, poseo amplio conocimiento y capacidad en el trabajo con Python y Django para crear blogs.</p>
             <span class="aboutme"><SiFuturelearn size={15}/>Autodidacta</span>
-            <p>He aprendido a estudiar a partir de libros y recursos en línea, incluyendo búsquedas en Google, interpretación de mensajes de error y comprensión de documentación.</p>
+            <p>Me formado a partir de libros y utilizando recursos en línea, incluyendo búsquedas en Google, obteniendo los certificados correspondientes, interpretación de mensajes de error y comprensión de documentación.</p>
             <span class="aboutme"><DiScrum size={25}/>Trabajo en equipo</span>
-            <p>Mis experiencias más gratificantes en programación implican trabajar con otros. Creo firmemente en el poder de la sinergia en equipo.</p>
+            <p>Mis experiencias más gratificantes en programación implican trabajar con otras personas. Creo firmemente en el poder de las sinergias de las personas de un equipo.</p>
           </div>
       </section>
       
