@@ -20,7 +20,7 @@ const Skill = () => {
                         Destacaría las siguientes habilidades que he reforzado y desarrollado en el Bootcamp de Factoría F5:  
                         </p>
                         <p><span><AiFillCaretUp size={20}/></span> Mi capacidad para trabajar en equipo utilizando metodologías Agile y Scrum.</p>
-                        <p><span><AiFillCaretUp size={20}/></span> El uso de tecnologías HTML, CSS, JavaCript, React, Java, Spring Boot</p>
+                        <p><span><AiFillCaretUp size={20}/></span> El uso de tecnologías HTML, CSS, JavaCript, React, Java, Spring Boot, PostgreSQL</p>
                         <p><span><AiFillCaretUp size={20}/></span> Herramientas como Figma, Trello, VS Code, Git y GitHub</p>
                         <br />
                         <h3 >Poseo las certificaciones :</h3>
