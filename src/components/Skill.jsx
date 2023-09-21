@@ -20,15 +20,14 @@ const Skill = () => {
                         Destacaría las siguientes habilidades que he reforzado y desarrollado en el Bootcamp de Factoría F5:  
                         </p>
                         <p><span><AiFillCaretUp size={20}/></span> Mi capacidad para trabajar en equipo utilizando metodologías Agile y Scrum.</p>
-                        <p><span><AiFillCaretUp size={20}/></span> El uso de tecnologías HTML, CSS, JavaCript, React</p>
-                        <p><span><AiFillCaretUp size={20}/></span> Capacidad para programar con Python y Django</p>
+                        <p><span><AiFillCaretUp size={20}/></span> El uso de tecnologías HTML, CSS, JavaCript, React, Java, Spring Boot</p>
                         <p><span><AiFillCaretUp size={20}/></span> Herramientas como Figma, Trello, VS Code, Git y GitHub</p>
                         <br />
                         <h3 >Poseo las certificaciones :</h3>
                         <span><FaList size={20} /></span>
                         <p><span><AiFillCaretUp size={20}/></span> Tableau Desktop Specialist (Tableau) (2023)</p>
                         <p><span><AiFillCaretUp size={20}/></span> Google Data Analytics Professioal Certificate (2022)</p>
-                        <p><span><AiFillCaretUp size={20}/></span> Microsoft Master Data Science (edX-UC San Diego) (2018-2019)</p>
+                        <p><span><AiFillCaretUp size={20}/></span> Microsoft Master Data Science (2018-2019)</p>
                     
                     </div>
                 </div>
@@ -70,7 +69,7 @@ const Skill = () => {
                             • Mantenimiento, gestión de contenido y copias de seguridad de sitios web.<br />
                             • Diseño y desarrollo de nuevos sitios web.<br />
                             • Creé e implementé un nuevo Sistema de administración de contenido que incrementó significativamente el tráfico de sitios web.<br />
-                            • Trabajé cerca con clientes para garantizar que sus requisitos se cumplieran
+                            • Trabajé cerca con clientes para garantizar que sus requisitos se cumplieran.
                         </p>
                     </div>
                 </div>

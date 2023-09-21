@@ -84,8 +84,8 @@ const Project = () => {
                             <h4>{project.name}</h4>
                             <p className="project-link">{project.description}</p>
                             <p className="project-link">{project.technology}</p>
-                            <div className="project-demo"><a href="#" >Demo</a>
-                                <a href="#">Code</a></div>
+                            <div className="project-demo">
+                                <a href="https://github.com/MoonBrillante/">Code</a></div>
                         </div>
                         <div className="project-crud">
                             {createFormVisible[index] && (

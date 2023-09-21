@@ -135,7 +135,7 @@ const EditUpdate = ({ project, onClose }) => {
             setName(project.name);
             setDescription(project.description);
             setTechnology(project.technology);
-          
+
         }
     }, [project]);
     const handleImgChange = (e) => {
@@ -151,7 +151,7 @@ const EditUpdate = ({ project, onClose }) => {
         data.append("name", name);
         data.append("description", description);
         data.append("technology", technology);
-        
+
         if (img) {
             data.append("img", img);
         }
