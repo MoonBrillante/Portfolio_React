@@ -130,6 +130,7 @@ const EditUpdate = ({ project, onClose }) => {
     const [description, setDescription] = useState("");
     const [technology, setTechnology] = useState("");
     const [img, setImgFile] = useState(null);
+
     useEffect(() => {
         if (project) {
             setName(project.name);
@@ -213,8 +214,8 @@ const EditUpdate = ({ project, onClose }) => {
                             type="file"
                             id="img"
                             name="img"
-                            accept="img/*"
-                            //value={img}
+                            accept="image/*"
+                            
                             onChange={handleImgChange}
                         />
                     </div>
