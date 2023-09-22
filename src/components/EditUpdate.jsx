@@ -124,7 +124,9 @@ export default EditUpdate;
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./EditUpdate.css";
-const url = "http://localhost:8083/api/v1/proyectos";
+
+const url = "http://localhost:8083/api/v1/projectos";
+
 const EditUpdate = ({ project, onClose }) => {
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
