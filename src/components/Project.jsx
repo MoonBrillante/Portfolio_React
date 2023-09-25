@@ -85,7 +85,7 @@ const Project = () => {
                             <p className="project-link">{project.description}</p>
                             <p className="project-link">{project.technology}</p>
                             <div className="project-demo">
-                                <a href="https://github.com/MoonBrillante/">Code</a></div>
+                                <a href="https://github.com/MoonBrillante/" target={"_blank"}>Code</a></div>
                         </div>
                         <div className="project-crud">
                             {createFormVisible[index] && (
