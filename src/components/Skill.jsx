@@ -17,7 +17,7 @@ const Skill = () => {
                         <h3>Desarrollo de Webs :</h3>
                         <span><FaList size={20} /></span>
                         <p>
-                        Destacaría las siguientes habilidades que he reforzado y desarrollado en el Bootcamp de Factoría F5:  
+                        Destacaría las siguientes habilidades que he reforzado y desarrollado en el Bootcamp de Factoría F5 que ha sido organizado por Ranstad este año:  
                         </p>
                         <p><span><AiFillCaretUp size={20}/></span> Mi capacidad para trabajar en equipo utilizando metodologías Agile y Scrum.</p>
                         <p><span><AiFillCaretUp size={20}/></span> El uso de tecnologías HTML, CSS, JavaCript, React, Java, Spring Boot, PostgreSQL</p>
@@ -44,7 +44,7 @@ const Skill = () => {
                         <h3>Mi Blog</h3>
                         <span><FaList size={20} /></span>
                         <p>
-                            Cuando estaba haciendo un curso de ciencia de datos, aprendí a usar python y dijango para crear un blog, una tienda online de productos...</p>
+                            Cuando estaba haciendo un curso de ciencia de datos, aprendí a usar python y dijango para crear un blog, una tienda online de productos derivados del te:</p>
                         <p><a href="http://moon.pythonanywhere.com/" target={'_blank'}><span><strong>Mi Blog example</strong></span></a></p>
 
 
@@ -68,7 +68,7 @@ const Skill = () => {
                         <p>
                             • Mantenimiento, gestión de contenido y copias de seguridad de sitios web.<br />
                             • Diseño y desarrollo de nuevos sitios web.<br />
-                            • Creé e implementé un nuevo Sistema de administración de contenido que incrementó significativamente el tráfico de sitios web.<br />
+                            • Creé e implementé un nuevo Sistema de administración de contenido que incrementó significativamente el tráfico en los sitios web de los clientes y por tanto las ventas.<br />
                             • Trabajé cerca con clientes para garantizar que sus requisitos se cumplieran.
                         </p>
                     </div>

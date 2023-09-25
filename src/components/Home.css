@@ -5,7 +5,7 @@
 }
 
 .home-img img {
-    width: 35vw;
+    width: 20vw;
     border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
 }
@@ -88,13 +88,13 @@ span {
 
 @media (max-width:768px){
     .home.img img{
-        width:70vw;
+        /*width:70vw;*/width:20vw;
         margin-top: 8rem;
     }
 }
 
 @media (max-width: 678px){
     .home-img img{
-        width: 80vw;
+        /*width: 80vw;*/width:20vw;
     }
 }

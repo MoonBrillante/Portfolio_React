@@ -76,6 +76,7 @@ const Project = () => {
 
         <section className="project" id="project">
             <h2 className="heading">Ultimo <span>Proyecto</span></h2>
+           
             <div className="project-container">
                 {projects.map((project, index) => (
                     <div key={index} className="project-box">

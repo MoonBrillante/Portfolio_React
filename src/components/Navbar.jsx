@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
     
             <header className="header">
-              <a href="#" className="logo">
+              <a href="#home" className="logo">
                 Portafolio
               </a>
               <span
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a href="#contact" onClick={closeMenu}>
                   Contacto
                 </a>
-              
+                <a href="/images/YUEMINGZHANG.pdf" download>Curriculum</a>
               </nav>
             </header>
           );
