@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import ming from './images/ming.png';
+import about from './images/about.png';
 import { DiScrum } from 'react-icons/di';
 import { SiFuturelearn } from 'react-icons/si';
 import { HiOutlineCode } from 'react-icons/hi';
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-img">
-        <img src={ming} alt="" />
+        <img src={about} alt="" />
       </div>
 
       <div className="about-content">
