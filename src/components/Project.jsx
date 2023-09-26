@@ -3,14 +3,16 @@ import axios from "axios";
 import { MdOutlineCreateNewFolder, MdOutlineDeleteForever } from "react-icons/md";
 import { AiTwotoneEdit } from "react-icons/ai";
 import Create from "./Create";
-import Update from "./EditUpdate";
+import EditUpdate from "./EditUpdate";
 import "./Project.css";
 
-const url = "http://localhost:8083/api/v1/projects";
+const url = "https://portfolio-lunar.vercel.app/api/v1/projects ";
+/*const url = "http://localhost:8083/api/v1/projects";*/
 const Project = () => {
     const [projects, setProjects] = useState([]);
     const [createFormVisible, setCreateFormVisible] = useState([]);
     const [editingProjectIndex, setEditingProjectIndex] = useState(null);
+    const [editingProjectId, setEditingProjectId] = useState(null);
 
     useEffect(() => {
         async function fetchProjects() {
@@ -36,6 +38,14 @@ const Project = () => {
         setCreateFormVisible(newCreateFormVisible);
     };
 
+    const handleEdit = (index) => {
+        setEditingProjectIndex(index);
+        const editedProject = projects[index];
+        console.log('Edited project:', editedProject);  // Log the edited project
+        setEditingProjectId(editedProject.id);
+    };
+    
+
     const handleUpdate = async (updatedProject) => {
         try {
             const response = await axios.put(`${url}/${updatedProject.id}`, updatedProject);
@@ -49,11 +59,7 @@ const Project = () => {
             console.log("Error updating project:", error);
         }
     };
-
-    const handleEdit = (index) => {
-        setEditingProjectIndex(index);
-    };
-
+    
     const handleDelete = async (projectId) => {
         console.log("Delete button clicked for project ID:", projectId);
         try {
@@ -76,7 +82,7 @@ const Project = () => {
 
         <section className="project" id="project">
             <h2 className="heading">Ultimo <span>Proyecto</span></h2>
-           
+                
             <div className="project-container">
                 {projects.map((project, index) => (
                     <div key={index} className="project-box">
@@ -97,7 +103,7 @@ const Project = () => {
                             )}
                             <MdOutlineCreateNewFolder size={30} onClick={() => toggleCreateForm(index)} />
                             {editingProjectIndex === index && (
-                                <Update
+                                <EditUpdate
                                     project={projects[editingProjectIndex]}
                                     onClose={closeEditForm}  // Pass onClose prop
                                     handleUpdate={handleUpdate}

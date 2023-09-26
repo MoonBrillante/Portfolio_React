@@ -5,7 +5,7 @@
 }
 
 .home-img img {
-    width: 35vw;
+    /*width: 35vw;*/ width:20vw;
     border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
 }
