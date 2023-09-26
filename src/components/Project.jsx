@@ -6,8 +6,8 @@ import Create from "./Create";
 import EditUpdate from "./EditUpdate";
 import "./Project.css";
 
-const url = "https://portfolio-lunar.vercel.app/api/v1/projects ";
-/*const url = "http://localhost:8083/api/v1/projects";*/
+
+const url = "http://localhost:8083/api/v1/projects";
 const Project = () => {
     const [projects, setProjects] = useState([]);
     const [createFormVisible, setCreateFormVisible] = useState([]);

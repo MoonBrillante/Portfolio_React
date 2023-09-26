@@ -42,7 +42,7 @@ const Navbar = () => {
                 <a href="#contact" onClick={closeMenu}>
                   Contacto
                 </a>
-      
+                <a href='/YUEMINGZHANG.pdf' download>Descarga C.V.</a>
               </nav>
             </header>
           );

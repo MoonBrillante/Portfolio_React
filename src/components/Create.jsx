@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Create.css';
 
-/*const url = "http://localhost:8083/api/v1/projects";*/
-const url = "https://portfolio-lunar.vercel.app/api/v1/projects ";
+const url = "http://localhost:8083/api/v1/projects";
+
 const Create = ({ closeForm }) => {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
