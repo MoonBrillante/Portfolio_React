@@ -3,6 +3,10 @@
     background: var(--second-bg-color);
 }
 
+.project .btn{
+    margin:15px;
+}
+
 .project h2 {
     margin-bottom: 4rem;
 }

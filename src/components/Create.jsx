@@ -88,17 +88,19 @@ const Create = ({ closeForm }) => {
               onChange={(e) => setTechnology(e.target.value)}
             ></textarea>
           </div>
-          <div>
+          <div className="input-box">
             <label>Img</label>
             <input type="file" accept="image/*" onChange={handleFileChange} />
           </div>
+          <div className="button-container">
           <button type="submit" className='create btn'>Create</button>
-          <button type="button" onClick={handleCancel} className="create btn">Cancel</button>
-        </form>
-
-        <button onClick={closeForm} className="close-button btn">
+          <button onClick={closeForm} className="close-button btn">
           Close
         </button>
+      </div>
+        </form>
+
+       
       </div>
     </div>
   );
