@@ -16,7 +16,7 @@ Metodología de Gestión:
  - Imagen
 
 ## Capturas de Pantalla
-![Screenshot](home.JPG)
+![Screenshot](home.jpg)
 # Instalación de Librerías
   ## Spring Boot
      Cloudinary
