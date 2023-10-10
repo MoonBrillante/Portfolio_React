@@ -4,7 +4,7 @@ import './Home.css'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FiGithub} from 'react-icons/fi'
-import ming from './images/ming.png'
+import home from './images/home.png'
 
 const Home = () => {
     return (
@@ -25,7 +25,7 @@ const Home = () => {
         <a href="mailto:yuemingz2011@hotmail.com"  className="btn" target="_blank">contáctame</a>
     </div>
     <div className="home-img">
-        <img src={ming} alt=""/>
+        <img src={home} alt=""/>
     </div>
 </section>
 );
